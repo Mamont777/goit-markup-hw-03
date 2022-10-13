@@ -80,6 +80,7 @@ body {
 .site-nav-list {
   display: flex;
   list-style: none;
+
 }
 
 .site-nav-list .item+.item {
