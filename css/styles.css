@@ -45,6 +45,8 @@ body {
 }
 
 /* Header */
+
+
 .container {
   display: flex;
   align-items: center;
@@ -52,6 +54,8 @@ body {
 
 
 }
+
+
 
 .logo {
   font-family: 'Raleway';
@@ -85,8 +89,6 @@ body {
 
 /* Navigation */
 
-
-
 .site-nav-list {
   display: flex;
   list-style: none;
@@ -99,18 +101,6 @@ body {
   margin-left: 50px;
 
 }
-
-.list-nav {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  margin: auto;
-  padding: 0;
-
-
-}
-
-
 
 .link {
   display: block;
@@ -136,8 +126,15 @@ body {
   text-decoration: none;
 }
 
+.list-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: auto;
+  padding: 0;
 
 
+}
 
 .list-nav .item+.item {
   margin-left: 50px;
