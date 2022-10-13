@@ -44,15 +44,24 @@ body {
 
 }
 
-/* Header */
-
-
-.container {
+.page-header .container {
   display: flex;
   align-items: center;
-  width: 1200px;
+}
 
+/* Header */
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
 }
 
 
@@ -91,9 +100,11 @@ body {
 
 .site-nav-list {
   display: flex;
+  align-items: center;
   list-style: none;
-  margin-left: 93px;
+  margin: 0 0 0 93px;
   padding: 0;
+
 
 }
 
@@ -120,6 +131,7 @@ body {
 
 .link-current {
   display: block;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--accent-color);
@@ -129,11 +141,11 @@ body {
 .list-nav {
   display: flex;
   align-items: center;
-  list-style: none;
   margin-left: auto;
   padding: 0;
-
-
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 
 .list-nav .item+.item {
@@ -141,6 +153,7 @@ body {
 }
 
 .link-mail-header {
+
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -154,6 +167,7 @@ body {
 }
 
 .link-phone {
+
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -167,11 +181,18 @@ body {
 }
 
 /* Hero */
-.section-color {
+.hero {
+
   background-color: var(--page-title-bc);
 }
 
 .page-title {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
   width: 696px;
   font-weight: 900;
   font-size: 44px;
@@ -183,6 +204,12 @@ body {
 }
 
 .main-button {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: auto;
   font-family: inherit;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
