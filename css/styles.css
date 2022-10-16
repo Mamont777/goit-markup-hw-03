@@ -22,6 +22,20 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -57,7 +71,7 @@ body {
 /* Header */
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -193,8 +207,6 @@ body {
 .page-title {
   display: flex;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: 0;
   margin-right: auto;
   margin-left: auto;
   width: 696px;
@@ -208,8 +220,7 @@ body {
 }
 
 .main-button {
-  display: flex;
-  align-items: center;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -247,7 +258,6 @@ body {
 }
 
 .properties-title {
-  margin: 0;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -257,8 +267,6 @@ body {
 
 .properties-text {
   padding-top: 10px;
-  margin-top: 0;
-  margin-bottom: 0;
   line-height: 1.7;
   color: var(--secondary-text-color);
 }
@@ -267,7 +275,6 @@ body {
 
 .section-title {
   margin-top: 94px;
-  margin-bottom: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -308,7 +315,6 @@ body {
 
 .title-text {
   padding-top: 30px;
-  margin: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -318,7 +324,6 @@ body {
 
 .section-text {
   padding-top: 10px;
-  margin: 0;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -342,6 +347,7 @@ body {
   margin-bottom: 60px;
   padding-left: 0;
   list-style: none;
+  font-style: normal;
 }
 
 .list-footer .item:nth-child(n + 2) {
@@ -349,7 +355,6 @@ body {
 }
 
 .link-address {
-  font-style: normal;
   font-weight: 400;
   line-height: 1.7;
   color: var(--tertiary-text-color);
@@ -362,7 +367,6 @@ body {
 }
 
 .link-mail {
-  font-style: normal;
   font-weight: 400;
   line-height: 1.7;
   color: var(--address-color);
@@ -440,7 +444,6 @@ body {
 
 .title {
   padding-top: 20px;
-  margin: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -450,7 +453,6 @@ body {
 
 .text {
   padding-top: 4px;
-  margin: 0;
   font-size: 16px;
   line-height: 1.8;
   color: var(--secondary-text-color);
