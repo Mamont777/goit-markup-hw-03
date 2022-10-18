@@ -70,6 +70,10 @@ button {
   padding-bottom: 94px;
 }
 
+.section-images {
+  padding-top: 0;
+}
+
 .page-header {
 
   border-bottom-width: 1px;
@@ -273,6 +277,7 @@ button {
 
 
 .section-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -295,10 +300,6 @@ button {
 
 .workers-list {
   display: flex;
-  padding-left: 0;
-  margin-top: 50px;
-  margin-bottom: 0;
-  list-style: none;
 }
 
 .workers-list .item-workers+.item-workers {
